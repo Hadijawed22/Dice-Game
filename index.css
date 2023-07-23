@@ -1,35 +1,40 @@
 .container {
-width:75%;
-text-align: center;
-margin: auto;
-margin-top: -20px;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: -20px;
 }
-.dice{
+
+.dice {
     text-align: center;
     display: inline-block;
 }
-body{
+
+body {
     background-color: #52525D;
 }
-h1{
+
+h1 {
     font-size: 7rem;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
     color: #a32638;
     margin: 35px;
 }
-.img{
+
+.img {
     width: 80%;
 }
 
-p{
+p {
     font-size: 2rem;
     font-family: cursive;
-    
+
 }
-#PlayButton{
+
+#PlayButton {
     background-color: #a32638;
-    color:white;
+    color: white;
     height: 50px;
     width: 100px;
     border-radius: 20px;
@@ -37,34 +42,29 @@ p{
     cursor: pointer;
 }
 
-@media (max-width: 1116px) and (min-width: 400px){
+@media (max-width: 1116px) and (min-width: 300px) {
 
-    h1{
-        font-size: 3rem;
+    h1 {
+        font-size: 2rem;
     }
-    .dice{
+
+    .dice {
         text-align: center;
         display: inline-block;
     }
-    img{
-        width: 65%;
-        height: 65%;
+
+    img {
+        width: 50%;
+        height: 50%;
     }
 }
 @media(max-width:703px){
-    img {
-        width: 200px;
-        display: inline-block;
-    }
-    h1{
-        font-size: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-}
-@media(max-width:554px)and (min-width:280px){
     img{
+        width: 10%;
+        height: 10%;
+        
+    }
+    .dice{
         display: inline-block;
         width: 125px;
     }
