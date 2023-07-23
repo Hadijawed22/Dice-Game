@@ -71,4 +71,8 @@ p {
         display: inline-block;
         width: 155px;
     }
+    #PlayButton{
+        width: 75px;
+        height: 35px;
+    }
 }
