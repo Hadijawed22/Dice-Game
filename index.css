@@ -1,0 +1,38 @@
+.container {
+width:75%;
+text-align: center;
+margin: auto;
+margin-top: -20px;
+}
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+body{
+    background-color: #52525D;
+}
+h1{
+    font-size: 7rem;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    color: #a32638;
+    margin: 35px;
+}
+.img{
+    width: 80%;
+}
+
+p{
+    font-size: 2rem;
+    font-family: cursive;
+    
+}
+#PlayButton{
+    background-color: #a32638;
+    color:white;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
