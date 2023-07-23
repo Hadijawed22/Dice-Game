@@ -36,3 +36,36 @@ p{
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 1116px) and (min-width: 400px){
+
+    h1{
+        font-size: 3rem;
+    }
+    .dice{
+        text-align: center;
+        display: inline-block;
+    }
+    img{
+        width: 65%;
+        height: 65%;
+    }
+}
+@media(max-width:703px){
+    img {
+        width: 200px;
+        display: inline-block;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+@media(max-width:554px)and (min-width:280px){
+    img{
+        display: inline-block;
+        width: 125px;
+    }
+}
