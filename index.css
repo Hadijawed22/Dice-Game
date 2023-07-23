@@ -48,7 +48,7 @@ p {
 @media (max-width: 1116px) and (min-width: 300px) {
 
     h1 {
-        font-size: 2rem;
+        font-size: 5rem;
     }
 
     .dice {
@@ -59,6 +59,9 @@ p {
     img {
         width: 70%;
         height: 70%;
+    }
+    p{
+        font-size: 4rem;
     }
 }
 @media(max-width:703px){
@@ -75,10 +78,5 @@ p {
         width: 65px;
         height: 30px;
     }
-    p{
-        font-size: 5rem;
-    }
-    h1{
-        font-size: 4rem;
-    }
+   
 }
