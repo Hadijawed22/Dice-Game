@@ -57,14 +57,14 @@ p {
     }
 
     img {
-        width: 60%;
-        height: 60%;
+        width: 70%;
+        height: 70%;
     }
 }
 @media(max-width:703px){
     img{
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
         
     }
     .dice{
@@ -72,7 +72,7 @@ p {
         width: 155px;
     }
     #PlayButton{
-        width: 75px;
-        height: 35px;
+        width: 65px;
+        height: 30px;
     }
 }
