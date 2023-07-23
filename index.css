@@ -60,7 +60,7 @@ p {
 }
 @media(max-width:703px){
     img{
-        width: 5%;
+        width: 50%;
         height: 50%;
         
     }
